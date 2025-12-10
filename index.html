@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prince Balaj — Portfolio</title>
+  <meta name="description" content="Prince Balaj — Student, Digital Marketer, Web Dev learner & Creator" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Theme toggle -->
+  <input type="checkbox" id="theme-toggle" class="visually-hidden" />
+  <label for="theme-toggle" class="theme-toggle" aria-hidden>
+    <span class="sun">☀️</span>
+    <span class="moon">🌙</span>
+  </label>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/avatar.jpg" alt="Prince Balaj" class="avatar" />
+        <div>
+          <h1>Prince Balaj</h1>
+          <p class="tagline">Student • Digital Marketer • Web Dev Learner • Creator</p>
+        </div>
+      </div>
+
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container" id="home">
+      <div class="hero-left">
+        <h2>Hello — I'm <strong>Prince Balaj</strong></h2>
+        <p class="lead">I build clean web pages, create content, and learn digital marketing & web development. This portfolio shows my journey and projects.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+        <ul class="quick-info">
+          <li><strong>Email:</strong> <a href="mailto:balajprince46@gmail.com">balajprince46@gmail.com</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+923102736361">0310-2736361</a></li>
+          <li><strong>ID:</strong> 364802</li>
+        </ul>
+      </div>
+      <div class="hero-right">
+        <div class="card profile-card">
+          <img src="assets/avatar.jpg" alt="Prince Balaj" />
+          <h3>Prince Balaj</h3>
+          <p>Student • Creator</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container section">
+      <h2>About Me</h2>
+      <p class="muted">I am a motivated student learning web development (HTML & CSS), digital marketing, and content creation. I enjoy creating videos, designing visuals, and exploring AI tools to enhance my workflows. This portfolio is built with pure HTML & CSS and deployed on Netlify as part of my class project.</p>
+      <div class="two-col">
+        <div>
+          <h3>My Journey</h3>
+          <p>I started learning web basics and digital marketing to create a strong online presence. I aim to keep improving and taking on real projects.</p>
+        </div>
+        <div>
+          <h3>Tools I Use</h3>
+          <ul>
+            <li>HTML5 & CSS3</li>
+            <li>Figma (for quick UI mockups)</li>
+            <li>Veed/Fliki for video editing</li>
+            <li>Basic AI tools for content & images</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Digital Marketing</h4>
+          <p>Social media, content strategy, and campaign basics.</p>
+        </div>
+        <div class="skill-card">
+          <h4>Web Development</h4>
+          <p>HTML & CSS — responsive layouts and good semantics.</p>
+        </div>
+        <div class="skill-card">
+          <h4>Content Creation</h4>
+          <p>Short videos, thumbnails, captions, and storytelling.</p>
+        </div>
+        <div class="skill-card">
+          <h4>AI Tools</h4>
+          <p>Using AI for idea generation, images & editing workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <p class="muted">Below are some projects and sample works. Replace the placeholders with your actual videos, images, or links.</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="assets/project1.jpg" alt="Project 1" />
+          <h3>Portfolio Website (This Project)</h3>
+          <p>Built with HTML & CSS and deployed on Netlify. Shows my skills, projects, and contact info.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">Video / Image</div>
+          <h3>Social Campaign Mock</h3>
+          <p>A short campaign concept and visuals for a brand (mockup).</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">Design</div>
+          <h3>Poster / Thumbnail</h3>
+          <p>Thumbnails and social assets designed for videos.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">Project</div>
+          <h3>Mini Landing Page</h3>
+          <p>Small landing page demo built using HTML & CSS.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p class="muted">Want to connect? Reach me via email or phone. Teachers and collaborators can view my projects and reach out for feedback or opportunities.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Contact Info</h3>
+          <p><strong>Email:</strong> <a href="mailto:balajprince46@gmail.com">balajprince46@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+923102736361">0310-2736361</a></p>
+          <p><strong>Student ID:</strong> 364802</p>
+        </div>
+
+        <div class="contact-card form-card">
+          <h3>Quick Message</h3>
+          <p class="muted">If your teacher requires a contact form, Netlify supports forms without JS. Example form markup is included below — enable Netlify forms when deploying.</p>
+
+          <!-- Netlify form (no JS required). When deploying on Netlify, it captures submissions automatically. -->
+          <form name="contact" method="POST" data-netlify="true" netlify>
+            <input type="hidden" name="form-name" value="contact">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button class="btn primary" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <strong>Prince Balaj</strong> — Built with ❤️ • Deployed on Netlify</p>
+    </div>
+  </footer>
+</body>
+</html>
